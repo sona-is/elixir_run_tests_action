@@ -19,6 +19,8 @@ MIX_ENV=test mix deps.compile --force
 # Compile everything, erroring on warnings to save some work.
 MIX_ENV=test mix compile --force --warnings-as-errors
 
+mix format --check-formatted
+
 # Check if we are an umbrella app.
 if [ -d "apps" ]; then
   GREAT_SUCCESS=0
