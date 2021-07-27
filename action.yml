@@ -1,7 +1,7 @@
 
 name: "Run ExUnit tests in an Elixir project"
 description: "Uses the current Elixir docker container. Runs all tests in an elixir project"
-author: "Adzz"
+author: "TalkingQuickly"
 runs:
   using: "docker"
   image: "Dockerfile"

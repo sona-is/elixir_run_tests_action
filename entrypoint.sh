@@ -9,6 +9,8 @@
 # This script ensures all tests run, regardless of how many failures there are
 # in different apps.
 
+cd backend
+
 # Get dem deps first
 mix deps.get
 MIX_ENV=test mix deps.compile --force
