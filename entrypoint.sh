@@ -10,6 +10,7 @@
 # in different apps.
 
 cd backend
+export DATABASE_HOST=postgres
 
 # Get dem deps first
 mix deps.get
